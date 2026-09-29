@@ -187,13 +187,6 @@ body {
     background-color: #155A8A;
     color: #FFFFFF;
 }
-
-
-
-/* 
-   MOBILE
- */
-
 @media (max-width: 768px) {
 
     .navbar {
