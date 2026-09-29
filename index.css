@@ -84,7 +84,7 @@ body {
 }
 
 .contact-link:hover {
-    background-color: #F28C28;
+    background-color: #155A8A;
     color: #FFFFFF !important;
 }
 
@@ -184,7 +184,7 @@ body {
 }
 
 .browse-button:hover {
-    background-color: #155A8A;
+    background-color: #F28C28;
     color: #FFFFFF;
 }
 @media (max-width: 768px) {
