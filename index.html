@@ -7,67 +7,420 @@
     <title>Abay Abay Carburador & Engine Repair Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav class="navbar">
 
-    <body>
+        <div class="brand">
 
-        <nav class="navbar">
+            <div class="logo-box">
+                <img src="images/logo.png" alt="Abay Abay Logo">
+            </div>
 
-            <div class="brand">
+            <div class="brand-name">
+                <span>ABAY ABAY</span>
+                <small>CARBURADOR & ENGINE SHOP</small>
+            </div>
 
-                <div class="logo-box">
-                    <img src="images/logo.png" alt="Abay Abay Logo">
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon">
+            ☰
+        </label>
+        <div class="menu-overlay"></div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#parts">Parts & Products</a></li>
+            <li><a href="#about">About/Workshop</a></li>
+            <li><a href="#contact" class="contact-link">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">ABAY ABAY CARBURADOR & ENGINE REPAIR SHOP</p>
+
+            <h1>Carburador and engine care
+                for mini cabs and multicabs.
+            </h1>
+
+            <p class="hero-text">
+                Learn about our carburetor, engine, and maintenance services, browse replacement parts, and contact the
+                shop about your vehicle or a part you need.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#services" class="hero-button">Explore Services</a>
+                <a href="#parts" class="hero-button browse-button">Browse Parts</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- CORE WORKSHOP SERVICES -->
+    <section id="services" class="services-section">
+
+        <div class="services-container">
+
+            <div class="services-heading">
+
+                <p class="section-label">
+                    SECTION 01 // WORKSHOP SPECIALIZATION
+                </p>
+
+                <h2>CORE WORKSHOP SERVICES</h2>
+
+                <p class="section-description">
+                    Reliable mechanical attention for small commercial
+                    workhorses and daily commuter multicabs.
+                </p>
+
+            </div>
+
+            <!-- SERVICE CARDS -->
+            <div class="services-grid">
+
+                <!-- CARBURETOR SERVICES -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">local_gas_station</span>
+                    </div>
+                    <p class="card-label">BENCH CALIBRATION</p>
+
+                    <h3>CARBURETOR SERVICES</h3>
+
+                    <p class="card-description">
+                        Disassembly, ultrasonic cleaning, precision mixture
+                        tuning, needle valve resealing, and complete bench
+                        overhaul to resolve hard starting, stalling, and
+                        poor fuel efficiency.
+                    </p>
+
+                    <div class="card-divider"></div>
+
+                    <a href="#contact" class="service-link">
+                        VIEW CARBURETOR SERVICES
+                        <span aria-hidden="true">→</span>
+                    </a>
+
                 </div>
 
-                <div class="brand-name">
-                    <span>ABAY ABAY</span>
-                    <small>CARBURADOR & ENGINE SHOP</small>
+                <!-- ENGINE SERVICES -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">speed</span>
+                    </div>
+
+                    <p class="card-label">DIAGNOSTICS & REBUILDS</p>
+
+                    <h3>ENGINE SERVICES</h3>
+
+                    <p class="card-description">
+                        Mechanical diagnostics including compression and
+                        vacuum inspection, cylinder head gasket repair,
+                        timing adjustment, and full mechanical rebuilds
+                        for subcompact engines.
+                    </p>
+
+                    <div class="card-divider"></div>
+
+                    <a href="#contact" class="service-link">
+                        VIEW ENGINE SERVICES
+                        <span aria-hidden="true">→</span>
+                    </a>
+
+                </div>
+
+                <!-- MAINTENANCE SERVICES -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">build</span>
+                    </div>
+
+                    <p class="card-label">PREVENTIVE UPKEEP</p>
+
+                    <h3>MAINTENANCE SERVICES</h3>
+
+                    <p class="card-description">
+                        Regular preventive upkeep including engine oil and
+                        filter changes, spark plug replacement, air filter
+                        servicing, valve lash adjustment, and fuel system
+                        flushing.
+                    </p>
+
+                    <div class="card-divider"></div>
+
+                    <a href="#contact" class="service-link">
+                        VIEW MAINTENANCE SERVICES
+                        <span aria-hidden="true">→</span>
+                    </a>
+
                 </div>
 
             </div>
 
-            <input type="checkbox" id="menu-toggle">
+            <a href="#contact" class="all-services-link">
+                SEE ALL WORKSHOP SERVICES & PROCEDURES
+                <span aria-hidden="true">→</span>
+            </a>
 
-            <label for="menu-toggle" class="menu-icon">
-                ☰
-            </label>
-            <div class="menu-overlay"></div>
+        </div>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#parts">Parts & Products</a></li>
-                <li><a href="#about">About/Workshop</a></li>
-                <li><a href="#contact" class="contact-link">Contact</a></li>
+    </section>
+    <!-- COMMON REPLACEMENT PARTS SECTION -->
+    <section class="parts-section" id="parts">
 
-        </nav>
-        <section id="home" class="hero">
+        <div class="parts-heading">
+            <span class="parts-eyebrow">SECTION 02 // INQUIRY CATALOG</span>
 
-            <div class="hero-content">
-                <p class="hero-subtitle">ABAY ABAY CARBURADOR & ENGINE REPAIR SHOP</p>
+            <h2>COMMON REPLACEMENT PARTS</h2>
 
-                <h1>Carburador & Engine Services Repair Shop</h1>
+            <p class="parts-intro">
+                Browse standard component categories. Check with the shop
+                counter for exact model fitment and pricing.
+            </p>
+        </div>
 
-                <p class="hero-text">
-                    Learn about our carburetor, engine, and maintenance services, browse replacement parts, and contact
-                    the shop about your vehicle or a part you need.
+        <div class="parts-notice">
+            <div class="notice-icon">
+                <span class="material-symbols-outlined">inventory_2</span>
+            </div>
+
+            <div class="notice-content">
+                <strong>SAMPLE CATALOGS ONLY</strong>
+                <p>
+                    We do not operate an online checkout, cart, or live inventory
+                    tracker. All parts must be verified with shop mechanics for
+                    vehicle fitment and current shelf availability.
                 </p>
+            </div>
+        </div>
 
-                <div class="hero-buttons">
-                    <a href="#services" class="hero-button">Explore Services</a>
-                    <a href="#parts" class="hero-button browse-button">Browse Parts</a>
+        <!-- PARTS CARDS -->
+        <div class="parts-grid">
+
+            <!-- CARD 1 -->
+            <div class="part-card">
+                <div class="part-icon">
+                    <span class="material-symbols-outlined">tune</span>
                 </div>
 
-        </section>
+                <span class="part-category">METERING &amp; JETS</span>
+                <h3>CARBURETOR PARTS</h3>
 
-    </body>
+                <p>
+                    Essential metering components, gasket rebuild kits,
+                    diaphragm sets, and accelerator pump parts for Asian,
+                    Keihin, and Mikuni units.
+                </p>
+
+                <div class="part-divider"></div>
+                <a href="#services" class="part-link">
+                    BROWSE CARBURETOR PARTS IN CATALOG
+                    <span>→</span>
+                </a>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="part-card">
+                <div class="part-icon">
+                    <span class="material-symbols-outlined">hardware</span>
+                </div>
+
+                <span class="part-category">GASKETS &amp; BELTS</span>
+                <h3>ENGINE PARTS</h3>
+
+                <p>
+                    Critical sealing gaskets, valve seals, belts, and
+                    engine hardware suited for standard 3-cylinder and
+                    4-cylinder multicab engines (F6A, K6A, etc.).
+                </p>
+
+                <div class="part-divider"></div>
+                <a href="#services" class="part-link">
+                    BROWSE ENGINE PARTS IN CATALOG
+                    <span>→</span>
+                </a>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="part-card">
+                <div class="part-icon">
+                    <span class="material-symbols-outlined">oil_barrel</span>
+                </div>
+
+                <span class="part-category">CONSUMABLES &amp; FILTERS</span>
+                <h3>MAINTENANCE PARTS</h3>
+
+                <p>
+                    High-wear consumables required for scheduled tune-ups,
+                    filter servicing, and dependable day-to-day operation.
+                </p>
+
+                <div class="part-divider"></div>
+                <a href="#services" class="part-link">
+                    BROWSE MAINTENANCE PARTS IN CATALOG
+                    <span>→</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="parts-footer">
+            <a href="#services" class="parts-catalog-button">
+                OPEN FULL PARTS &amp; PRODUCTS CATALOG
+                <span>→</span>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- DIRECT INQUIRIES SECTION -->
+    <section id="contact" class="inquiries-section">
+
+        <div class="inquiries-container">
+
+            <div class="inquiries-heading">
+
+                <p class="inquiries-eyebrow">
+                    SECTION 04 // DIRECT INQUIRIES
+                </p>
+
+                <h2>
+                    NEED AN ASSESSMENT OR PARTS CONFIRMATION?
+                </h2>
+
+                <p class="inquiries-description">
+                    We invite multicab and mini cab owners to visit the shop
+                    or get in touch directly. Whether your engine is experiencing
+                    rough idling or you need to verify a replacement gasket,
+                    our mechanics are ready to inspect and advise.
+                </p>
+
+            </div>
+
+            <div class="inquiries-grid">
+
+                <div class="inquiry-card">
+
+                    <div class="inquiry-title">
+                        <span class="material-symbols-outlined">call</span>
+
+                        <h3>SHOP TELEPHONE / MOBILE</h3>
+                    </div>
+
+                    <p class="inquiry-value">
+                        [ Shop Phone Number to be confirmed ]
+                    </p>
+
+                    <div class="inquiry-divider"></div>
+
+                    <p class="inquiry-description-card">
+                        Direct mechanic contact during working hours.
+                    </p>
+
+                </div>
+
+                <div class="inquiry-card">
+                    <div class="inquiry-title">
+                        <span class="material-symbols-outlined">location_on</span>
+
+                        <h3>WORKSHOP ADDRESS</h3>
+                    </div>
+
+                    <p class="inquiry-value">
+                        [ Shop Address to be confirmed ]
+                    </p>
+
+                    <div class="inquiry-divider"></div>
+
+                    <p class="inquiry-description-card">
+                        Drop by the shop bay with your vehicle or worn component.
+                    </p>
+
+                </div>
+
+                <div class="inquiry-card">
+
+                    <div class="inquiry-title">
+                        <span class="material-symbols-outlined">schedule</span>
+
+                        <h3>OPERATING HOURS</h3>
+                    </div>
+
+                    <p class="inquiry-value">
+                        [ Shop Operating Hours to be confirmed ]
+                    </p>
+
+                    <div class="inquiry-divider"></div>
+
+                    <p class="inquiry-description-card">
+                        Operating schedule subject to owner verification.
+                    </p>
+
+                </div>
+
+                <div class="inquiry-card">
+
+                    <div class="inquiry-title">
+                        <span class="material-symbols-outlined">chat</span>
+
+                        <h3>APPROVED MESSENGER / VIBER</h3>
+                    </div>
+
+                    <p class="inquiry-value">
+                        [ Approved Messenger / Viber Link to be confirmed ]
+                    </p>
+
+                    <div class="inquiry-divider"></div>
+
+                    <p class="inquiry-description-card">
+                        Send photos of your chassis tag or part directly.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- DIRECT SHOP COMMUNICATION -->
+            <div class="direct-communication">
+
+                <div class="communication-content">
+
+                    <h3>DIRECT SHOP COMMUNICATION</h3>
+
+                    <p>
+                        The website does not automatically transmit booking requests; simply call or message our
+                        counter with your vehicle details
+                    </p>
+
+                </div>
+
+                <a href="#contact" class="communication-button">
+                    GO CONTACT & INQUIRY PAGE
+                    <span aria-hidden="true">→</span>
+                </a>
+
+            </div>
+        
+        </div>
+
+    </section>
 
 </body>
 
